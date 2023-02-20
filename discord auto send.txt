@@ -1,0 +1,42 @@
+SEBELUM MULAI PASTIIN YA PYTHON SAMA GIT NYA UDAH KE INSTAL.
+
+
+1. git clone https://github.com/bayy420-999/Discord-push-rank-bot
+
+2. cd Discord-push-rank-bot
+
+3. pip install coloredlogs; pip install discord.py-self
+
+4. notepad config.ini
+
+SCRIPT MELIHAT TOKEN DISCORD
+
+PASTE LINK DIBAWAH DI URL BAR SAAT BUKA WEB DISCORD YA.
+
+javascript:var i = document.createElement('iframe');i.onload = function(){var localStorage = i.contentWindow.localStorage;prompt('DC Token By @github.com/vsec7', localStorage.getItem('token').replace(/["]+/g, ''));};document.body.appendChild(i);
+
+NOTE!!!! JIKA ERROR HARAP DI PERHATIKAN YA PAS BAGIAN DEPAN LINK (javascript) SUKA TERHAPUS SENDIRI JADI KALIAN HARUS KETIK (javascript) SENDIRI YA.
+
+RUN BOT 
+
+python dc.py
+
+STOP BOT
+
+CTRL + C
+
+EDIT TEXT 
+
+1. cd Discord-push-rank-bot
+
+2. cd wordlist
+
+3. notepad example.txt
+
+AUTO DELETE
+
+1. notepad dc.py
+
+2. await message.channel.send(word, delete_after = 1)
+
+TINGGAL DI EDIT SESUAIN
